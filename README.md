@@ -17,7 +17,7 @@ To support faster software release cycles, many software engineering teams have 
 Artificial Intelligence (AI) and Machine Learning (ML) provide a potential way to address these limitations by going beyond conventional rule-based scanning. Instead of relying solely on predefined security rules, AI-driven techniques can learn from code structures and web traffic patterns to identify and classify vulnerabilities based on their context. When lightweight AI inference models are integrated into DevSecOps pipelines, security checks can be performed more efficiently while reducing unnecessary alerts. This can help development teams maintain continuous security enforcement without significantly affecting the speed of software delivery.
 
 ### System Conceptual Architecture
-![image](https://github.com/user-attachments/assets/xxxx-xxxx-xxxx)
+![Figure 1.1 Conceptual Architecture](conceptual_architecture.png)
 *Figure 1.1: Conceptual Architecture of Proposed AI-Assisted DevSecOps Framework*
 
 ---
