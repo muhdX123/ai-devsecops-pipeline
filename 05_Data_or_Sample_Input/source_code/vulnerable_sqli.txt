@@ -1,0 +1,10 @@
+Sample Source Code – SQL Injection
+
+Input Type:
+Source Code
+
+Sample Code:
+query = "SELECT * FROM users WHERE username = '" + username + "'";
+
+Expected Class:
+SQL Injection (SQLi)
