@@ -1,0 +1,11 @@
+Sample Source Code – Safe
+
+Input Type:
+Source Code
+
+Sample Code:
+username = sanitize(user_input);
+display(username);
+
+Expected Class:
+Safe
