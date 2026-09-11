@@ -1,0 +1,13 @@
+Sample Safe Input
+
+Input Type:
+HTTP Request Parameter
+
+Parameter:
+username
+
+Sample Input:
+Husna
+
+Expected Class:
+Safe
