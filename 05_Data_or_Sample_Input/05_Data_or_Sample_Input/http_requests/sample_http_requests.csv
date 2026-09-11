@@ -1,0 +1,9 @@
+Input_ID,Input_Type,Parameter,Input_Value,Expected_Class
+1,HTTP Parameter,username,' OR '1'='1,SQL Injection
+2,HTTP Parameter,search,<script>alert('XSS')</script>,XSS
+3,HTTP Parameter,username,Husna,Safe
+4,HTTP Parameter,search,information technology,Safe
+5,HTTP Parameter,id,1 OR 1=1,SQL Injection
+6,HTTP Parameter,comment,<img src=x onerror=alert('XSS')>,XSS
+7,HTTP Parameter,email,husna@example.com,Safe
+8,HTTP Parameter,search,computer security,Safe
