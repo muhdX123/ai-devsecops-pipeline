@@ -147,8 +147,17 @@ The data and sample inputs are available in the `05_Data_or_Sample_Input/` direc
 [View Data and Sample Input](05_Data_or_Sample_Input/)
 
 ---
+---
 
-## 3.8 Expected Output and Evaluation
+## 3.9 Proposed Timeline
+
+The proposed timeline shows the planned activities for completing the research, developing the AI-assisted vulnerability detection prototype, conducting testing and evaluation, and integrating the prototype into the containerised CI/CD environment.
+
+![Proposed Timeline / Gantt Chart](03_Architecture_and_Flowchart/Proposed_Timeline_Gantt_Chart.png)
+
+*Figure: Proposed Timeline / Gantt Chart*
+
+## 3.10 Expected Output and Evaluation
 
 The proposed system is expected to classify inputs into three categories: SQL Injection (SQLi), Cross-Site Scripting (XSS), and Safe.
 
@@ -160,11 +169,6 @@ The expected outputs and evaluation direction are available in the `06_Results_o
 
 ---
 
-## 3.9 References
-
-The research papers and other sources used in this project are maintained in the `07_References/` directory.
-
-[View References](07_References/references.md)
 
 
 ## References
