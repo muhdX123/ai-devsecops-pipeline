@@ -134,6 +134,39 @@ The current implementation is a preliminary proof-of-concept and will be further
 
 The source code is available in the `04_Source_Code/` directory.
 
+---
+
+## 3.7 Data and Sample Input
+
+Sample inputs are provided to demonstrate the preliminary testing direction of the proposed AI-assisted web vulnerability detection system.
+
+The sample inputs include SQL Injection (SQLi), Cross-Site Scripting (XSS), and safe inputs. HTTP request samples are also provided for preliminary testing.
+
+The data and sample inputs are available in the `05_Data_or_Sample_Input/` directory.
+
+[View Data and Sample Input](05_Data_or_Sample_Input/)
+
+---
+
+## 3.8 Expected Output and Evaluation
+
+The proposed system is expected to classify inputs into three categories: SQL Injection (SQLi), Cross-Site Scripting (XSS), and Safe.
+
+The proposed evaluation focuses on detection accuracy, false-positive rate, detection time, and successful CI/CD integration. Actual experimental results will be added after the implementation and testing stages.
+
+The expected outputs and evaluation direction are available in the `06_Results_or_Expected_Output/` directory.
+
+[View Expected Output and Evaluation](06_Results_or_Expected_Output/)
+
+---
+
+## 3.9 References
+
+The research papers and other sources used in this project are maintained in the `07_References/` directory.
+
+[View References](07_References/references.md)
+
+
 ## References
 
 The references used in this research are available in the `07_References/` folder.
