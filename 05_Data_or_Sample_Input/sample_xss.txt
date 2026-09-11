@@ -1,0 +1,13 @@
+Sample Cross-Site Scripting Input
+
+Input Type:
+HTTP Request Parameter
+
+Parameter:
+search
+
+Sample Input:
+<script>alert('XSS')</script>
+
+Expected Class:
+Cross-Site Scripting (XSS)
