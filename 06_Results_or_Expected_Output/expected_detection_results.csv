@@ -1,0 +1,9 @@
+Input_ID,Input_Type,Expected_Class,Expected_Action
+1,HTTP Parameter,SQL Injection,Generate Security Alert
+2,HTTP Parameter,XSS,Generate Security Alert
+3,HTTP Parameter,Safe,No Security Alert
+4,HTTP Parameter,Safe,No Security Alert
+5,HTTP Parameter,SQL Injection,Generate Security Alert
+6,HTTP Parameter,XSS,Generate Security Alert
+7,HTTP Parameter,Safe,No Security Alert
+8,HTTP Parameter,Safe,No Security Alert
