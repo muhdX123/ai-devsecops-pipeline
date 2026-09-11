@@ -57,3 +57,79 @@ This research focuses on the automated detection of key web application vulnerab
 ## 1.7 Significance of Study
 
 This study contributes to the field of software security and DevSecOps automation by demonstrating how machine learning algorithms can upgrade vulnerability detection without impeding deployment velocity. The outcome benefits software developers, DevSecOps engineers, and security analysts by providing an intelligent, context-aware scanning mechanism that minimizes manual triage effort and accelerates secure software delivery.
+
+
+---
+
+# CHAPTER 3: RESEARCH METHODOLOGY
+
+## 3.1 Research Methodology
+
+This research uses a data-driven methodology to guide the development and evaluation of the proposed AI-assisted web vulnerability detection prototype. The methodology focuses on preparing vulnerability data, developing the AI model, evaluating its performance, and integrating the prototype into a CI/CD environment.
+
+The main stages of the proposed methodology are:
+
+1. Problem Identification
+2. Data Collection
+3. Data Preparation
+4. AI Model Development
+5. Model Evaluation
+6. CI/CD Integration and Testing
+
+---
+
+## 3.2 Development Model
+
+The Prototyping Model is used to develop the proposed AI-assisted web vulnerability detection prototype. The prototype will be developed, tested, and improved in stages before being integrated into the CI/CD environment.
+
+The main stages include Requirement Identification, Prototype Development, Testing and Evaluation, and Prototype Integration.
+
+---
+
+## 3.3 Justification
+
+The data-driven methodology is suitable because the proposed system uses vulnerability data to train and test the AI model for detecting SQL Injection (SQLi) and Cross-Site Scripting (XSS).
+
+The Prototyping Model is suitable because the proposed system is developed as a prototype. It allows the system to be tested and improved before the final integration into the CI/CD environment.
+
+---
+
+## 3.4 Proposed System Architecture
+
+The proposed system architecture consists of two main parts: Model Preparation and Vulnerability Detection.
+
+The Model Preparation process involves collecting and preparing the SQL Injection (SQLi) and Cross-Site Scripting (XSS) vulnerability dataset through cleaning, labelling, preprocessing, and feature extraction. The prepared data is then used to train the supervised AI/ML model.
+
+During Vulnerability Detection, source code and HTTP request parameters are provided as inputs. The input is processed and converted into features before being passed to the trained AI/ML model. The model classifies the input as SQL Injection, Cross-Site Scripting, or Safe. The result is then passed to the CI/CD pipeline to generate a security report or alert.
+
+![Proposed System Architecture](03_Architecture_and_Flowchart/Proposed_System_Architecture.png)
+
+*Figure 3.1: Proposed System Architecture*
+
+---
+
+## 3.5 System Flowchart
+
+The proposed system flowchart shows the sequence of the vulnerability detection process. The process starts with source code or HTTP request parameters as input.
+
+The input goes through data preprocessing and feature extraction before being processed by the trained AI/ML model. The system then determines whether a vulnerability is detected. If a vulnerability is detected, it is classified as SQL Injection or Cross-Site Scripting. Otherwise, the input is classified as Safe.
+
+The result is then passed to the containerized CI/CD pipeline to generate a security report or alert.
+
+![Proposed System Flowchart](03_Architecture_and_Flowchart/Proposed_System_Flowchart.png)
+
+*Figure 3.2: Proposed System Flowchart*
+
+---
+
+## 3.6 Preliminary Technical Components
+
+Preliminary source code components were developed to demonstrate the feasibility and technical direction of the proposed system.
+
+- `preprocessing.py` – performs basic cleaning and normalization of source code or HTTP request input.
+- `feature_extraction.py` – extracts features from the processed input for vulnerability detection.
+- `vulnerability_detection.py` – demonstrates a preliminary supervised machine learning approach to classify inputs as SQL Injection (SQLi), Cross-Site Scripting (XSS), or Safe.
+
+The current implementation is a preliminary proof-of-concept and will be further developed using the selected vulnerability dataset during the implementation stage.
+
+The source code is available in the `04_Source_Code/` directory.
