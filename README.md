@@ -133,3 +133,10 @@ Preliminary source code components were developed to demonstrate the feasibility
 The current implementation is a preliminary proof-of-concept and will be further developed using the selected vulnerability dataset during the implementation stage.
 
 The source code is available in the `04_Source_Code/` directory.
+
+## References
+
+The references used in this research are available in the `07_References/` folder.
+
+[View References](07_References/references.md)
+
