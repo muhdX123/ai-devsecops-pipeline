@@ -1,0 +1,10 @@
+Sample Source Code – Cross-Site Scripting
+
+Input Type:
+Source Code
+
+Sample Code:
+output = "<html>" + user_input + "</html>";
+
+Expected Class:
+Cross-Site Scripting (XSS)
