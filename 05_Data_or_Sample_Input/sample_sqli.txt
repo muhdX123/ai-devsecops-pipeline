@@ -1,0 +1,13 @@
+Sample SQL Injection Input
+
+Input Type:
+HTTP Request Parameter
+
+Parameter:
+username
+
+Sample Input:
+' OR '1'='1
+
+Expected Class:
+SQL Injection (SQLi)
